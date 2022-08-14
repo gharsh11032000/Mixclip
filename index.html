@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mixclip | Your Freelance Video Editor</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="overflow-x-hidden bg-tertiaryColor text-gray-700">
+    <!-- Section Header -->
+    <section
+      id="header"
+      class="bg-gradient-to-tr from-secondaryColor to-primaryColor text-tertiaryColor"
+    >
+      <!-- Section Container -->
+      <div
+        class="contianer max-w-4xl mx-auto flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 py-12 px-6 md:p-12"
+      >
+        <!-- Image Container -->
+        <div class="w-1/3">
+          <img
+            src="assets/images/Profile-img.jpeg"
+            alt="Hrsh Gupta"
+            class="rounded-full border-2 object-cover border-yellow-500"
+          />
+        </div>
+        <!-- Content container -->
+        <div class="text-left w-full flex flex-col space-y-8 items-start">
+          <h1 class="font-bold text-5xl md:text-7xl">Aman Verma</h1>
+          <p class="leading-8 text-lg opacity-80">
+            A Freelance Video Editor with
+            <span class="font-semibold">1+ years of experience</span>, skilled
+            in Adobe Premiere Pro, edited
+            <span class="font-semibold">150+ videos</span> for content creators
+            across the world.
+          </p>
+          <!-- Link container -->
+          <div class="flex flex-wrap gap-4 md:space-x-4 text-lg">
+            <!-- Links -->
+            <a
+              href="https://twitter.com/amanv4702?t=bseGyUZ1SCCglburPEX-Gw&s=08"
+              target="_blank"
+              rel="noreferrer"
+              class="text-yellow-400 hover:translate-x-1 duration-300 transition-all"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z"
+                  fill="rgba(250,204,21,1)"
+                /></svg
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/aman-verma-794b93222/"
+              target="_blank"
+              rel="noreferrer"
+              class="text-yellow-400 hover:translate-x-1 duration-300 transition-all"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"
+                  fill="rgba(250,204,21,1)"
+                /></svg
+            ></a>
+            <a
+              href="https://www.instagram.com/mixclip.in/"
+              target="_blank"
+              rel="noreferrer"
+              class="text-yellow-400 hover:translate-x-1 duration-300 transition-all"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-2a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.25a1.25 1.25 0 0 1-2.5 0 1.25 1.25 0 0 1 2.5 0zM12 4c-2.474 0-2.878.007-4.029.058-.784.037-1.31.142-1.798.332-.434.168-.747.369-1.08.703a2.89 2.89 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.006 9.075 4 9.461 4 12c0 2.474.007 2.878.058 4.029.037.783.142 1.31.331 1.797.17.435.37.748.702 1.08.337.336.65.537 1.08.703.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.474 0 2.878-.007 4.029-.058.782-.037 1.309-.142 1.797-.331.433-.169.748-.37 1.08-.702.337-.337.538-.65.704-1.08.19-.493.296-1.02.332-1.8.052-1.104.058-1.49.058-4.029 0-2.474-.007-2.878-.058-4.029-.037-.782-.142-1.31-.332-1.798a2.911 2.911 0 0 0-.703-1.08 2.884 2.884 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.925 4.006 14.539 4 12 4zm0-2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2z"
+                  fill="rgba(250,204,21,1)"
+                /></svg
+            ></a>
+            <span class="text-yellow-400">|</span>
+            <a
+              href="tel:+91-9131442623"
+              target="_blank"
+              rel="noreferrer"
+              class="text-yellow-400 hover:translate-x-1 duration-300 transition-all flex gap-2"
+              ><span>+91-9131442623</span></a
+            >
+          </div>
+          <!-- Contact me -->
+          <a
+            href="mailto:contact@mixclip.in"
+            target="_blank"
+            rel="noreferrer"
+            class="text-lg items-center hover:translate-x-2 duration-300 transition-all flex gap-2 opacity-80"
+            ><span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"
+                  fill="rgba(250,204,21,1)"
+                /></svg></span
+            ><span>contact@mixclip.in</span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Skills -->
+    <section id="skills" class="mb-8">
+      <!-- Section container -->
+      <div class="container max-w-4xl mx-auto pt-12 px-6 md:px-12">
+        <!-- Heading -->
+        <h2 class="font-bold text-3xl">Professional Skills & Interests</h2>
+        <!-- Content container -->
+        <div class="pt-12 md:px-12 text-lg">
+          <!-- List container -->
+          <ul class="list-none flex flex-col space-y-2">
+            <!-- List items -->
+            <li class="flex space-x-4">
+              <span class="text-secondaryColor">✔</span
+              ><span>Adobe Premiere Pro & After Effects</span>
+            </li>
+            <li class="flex space-x-4">
+              <span class="text-secondaryColor">✔</span
+              ><span>Video and Sound Editing</span>
+            </li>
+            <li class="flex space-x-4">
+              <span class="text-secondaryColor">✔</span
+              ><span>Music Video Editing</span>
+            </li>
+            <li class="flex space-x-4">
+              <span class="text-secondaryColor">✔</span
+              ><span>Video Editing for Youtube </span>
+            </li>
+            <li class="flex space-x-4">
+              <span class="text-secondaryColor">✔</span
+              ><span>Short Videos for Social Media</span>
+            </li>
+            <li class="flex space-x-4">
+              <span class="text-secondaryColor">✔</span
+              ><span>Animation & Voice Overs</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section work -->
+    <section id="work" class="mb-8">
+      <!-- Section container -->
+      <div class="container max-w-4xl mx-auto pt-12 px-6 md:px-12">
+        <!-- Heading -->
+        <h2 class="font-bold text-3xl">Previous Works</h2>
+        <!-- Content container -->
+        <div class="text- flex flex-col space-y-10 pt-12 md:px-12">
+          <!-- work-1 -->
+          <div class="flex flex-col space-y-4">
+            <!-- work heading -->
+            <div class="flex flex-col space-y-2">
+              <h4 class="font-semibold text-2xl flex items-center gap-2">
+                <span>Reaction Videos</span>
+                <span class="text-secondaryColor"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="rgba(11,114,133,1)"
+                    /></svg
+                ></span>
+              </h4>
+            </div>
+            <!-- Videos -->
+            <div
+              class="flex flex-row gap-5 overflow-scroll items-center md:flex-row carousel"
+            >
+              <!-- Video -->
+              <iframe
+                src="https://drive.google.com/file/d/1_CfMFMV84kQtI2mytmkJJq0Z7cSEINKJ/preview"
+                width="320"
+                height="180"
+                allow="autoplay"
+              ></iframe>
+              <!-- Video -->
+              <iframe
+                src="https://drive.google.com/file/d/1xlgnPSFv150Nc2UWbFUR38bBNLEvdZAX/preview"
+                width="320"
+                height="180"
+                allow="autoplay"
+              ></iframe>
+              <!-- Video -->
+              <iframe
+                src="https://drive.google.com/file/d/1jPWGnCN6j0sYXI1j1g2TE-Run-DthDn6/preview"
+                width="320"
+                height="180"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- work-2 -->
+          <div class="flex flex-col space-y-4">
+            <!-- work heading -->
+            <div class="flex flex-col space-y-2">
+              <h4 class="font-semibold text-2xl flex items-center gap-2">
+                <span>Cashcow Videos</span>
+                <span class="text-secondaryColor"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="rgba(11,114,133,1)"
+                    /></svg
+                ></span>
+              </h4>
+            </div>
+            <!-- Videos -->
+            <div
+              class="flex flex-row gap-5 overflow-scroll items-center md:flex-row carousel"
+            >
+              <!-- Video -->
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/NlhGgNzA24U"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <!-- Video -->
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/UTI27i_c8HU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- work-3 -->
+          <div class="flex flex-col space-y-4">
+            <!-- work heading -->
+            <div class="flex flex-col space-y-2">
+              <h4 class="font-semibold text-2xl flex items-center gap-2">
+                <span>Talking Head Videos</span>
+                <span class="text-secondaryColor"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="rgba(11,114,133,1)"
+                    /></svg
+                ></span>
+              </h4>
+            </div>
+            <!-- Videos -->
+            <div
+              class="flex flex-row gap-5 overflow-scroll items-center md:flex-row carousel"
+            >
+              <!-- Video -->
+              <iframe
+                src="https://drive.google.com/file/d/1ezUwdo_KkRxjsVVY4L3Nyij-lsM1JAIn/preview"
+                width="320"
+                height="180"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- work-4 -->
+          <div class="flex flex-col space-y-4">
+            <!-- work heading -->
+            <div class="flex flex-col space-y-2">
+              <h4 class="font-semibold text-2xl flex items-center gap-2">
+                <span>Movie Explanation Videos</span>
+                <span class="text-secondaryColor"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="rgba(11,114,133,1)"
+                    /></svg
+                ></span>
+              </h4>
+            </div>
+            <!-- Videos -->
+            <div
+              class="flex flex-row gap-5 overflow-scroll items-center md:flex-row carousel"
+            >
+              <!-- Video -->
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/Z1gZgiZAhFc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <!-- Video -->
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/GNkS5NDx-hg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <!-- Video -->
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/HbxT9paZPTw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <!-- Video -->
+              <iframe
+                width="320"
+                height="180"
+                src="https://www.youtube.com/embed/HIs01b4X6cg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- work-5 -->
+          <div class="flex flex-col space-y-4">
+            <!-- work heading -->
+            <div class="flex flex-col space-y-2">
+              <h4 class="font-semibold text-2xl flex items-center gap-2">
+                <span>Short Videos</span>
+                <span class="text-secondaryColor"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="rgba(11,114,133,1)"
+                    /></svg
+                ></span>
+              </h4>
+            </div>
+            <!-- Videos -->
+            <div
+              class="flex flex-row gap-5 overflow-scroll items-center md:flex-row carousel"
+            >
+              <!-- Video -->
+              <iframe
+                src="https://drive.google.com/file/d/1R3OdrbvymTs0kbV-p8WyTpQzV2YJXczB/preview"
+                width="320"
+                height="180"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Cta -->
+    <section id="cta" class="mb-8">
+      <!-- Section container -->
+      <div
+        class="max-w-4xl mx-auto container flex items-center justify-center pt-12 px-6 md:px-12"
+      >
+        <!-- Button -->
+        <a href="mailto:contact@mixclip.in" target="_blank" rel="noreferrer">
+          <button
+            class="py-4 px-12 rounded-full bg-gradient-to-tr text-xl font-semibold from-secondaryColor to-primaryColor transition-all active:scale-95 hover:scale-105 duration-300"
+          >
+            <span class="text-tertiaryColor">Start by saying hi</span>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="mb-8">
+      <!-- Section container -->
+      <div
+        class="container mx-auto max-w-5xl pt-12 px-6 md:px-12 border-b border-primaryColor opacity-30"
+      ></div>
+      <!-- Text -->
+      <p class="text-center text-primaryColor opacity-30 mt-4">
+        &copy; 2022 by Mixclip.in
+      </p>
+    </footer>
+  </body>
+</html>
